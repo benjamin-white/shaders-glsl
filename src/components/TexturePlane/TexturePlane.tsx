@@ -41,7 +41,7 @@ const Plane = ({ shaders }: { shaders: PlaneProps }) => {
 
 const TexturePlane = ({ shaders }: { shaders: PlaneProps }) => (
   <div style={{ width: '600px', height: '600px' }}>
-    <Canvas camera={{ position: [0.0, 0.0, 0.7] }}>
+    <Canvas camera={{ position: [0.0, 0.0, 0.2] }} id="target">
       <Plane shaders={shaders} />
     </Canvas>
   </div>

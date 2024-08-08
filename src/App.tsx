@@ -5,6 +5,7 @@ import vertexShader from './shaders/vertex-default.vert'
 
 const App = () => (
   <Layout className={['text-center', 'justify-center']}>
+    <h1>ARKLO</h1>
     <TexturePlane shaders={[vertexShader, fragmentShader, uniforms]} />
   </Layout>
 )
